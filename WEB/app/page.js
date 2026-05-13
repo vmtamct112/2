@@ -77,32 +77,71 @@ const pageHtml = `
         </div>
         <div class="category-grid">
             <div class="category-card" onclick="filterProducts('noi-chao')">
-                <div class="category-icon"><i class="fas fa-fire"></i></div>
+                <div class="category-icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 28h32v10a6 6 0 0 1-6 6H22a6 6 0 0 1-6-6V28z" />
+                        <path d="M18 28V22a2 2 0 0 1 2-2h24a2 2 0 0 1 2 2v6" />
+                        <path d="M22 22h20" />
+                        <path d="M16 34h-4" />
+                        <path d="M48 34h4" />
+                    </svg>
+                </div>
                 <h3>Nồi & Chảo</h3>
                 <p>25 sản phẩm</p>
             </div>
             <div class="category-card" onclick="filterProducts('dao-thot')">
-                <div class="category-icon"><i class="fas fa-cut"></i></div>
+                <div class="category-icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 18l28 12-8 8-14 4-6-24z" />
+                        <path d="M22 24l18 8" />
+                        <path d="M26 44l10-2" />
+                    </svg>
+                </div>
                 <h3>Dao & Thớt</h3>
                 <p>18 sản phẩm</p>
             </div>
             <div class="category-card" onclick="filterProducts('dien')">
-                <div class="category-icon"><i class="fas fa-blender"></i></div>
+                <div class="category-icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="22" y="14" width="20" height="28" rx="3" />
+                        <path d="M24 20h16" />
+                        <path d="M28 34h8" />
+                        <path d="M32 44v8" />
+                    </svg>
+                </div>
                 <h3>Đồ Điện</h3>
                 <p>20 sản phẩm</p>
             </div>
             <div class="category-card" onclick="filterProducts('phu-kien')">
-                <div class="category-icon"><i class="fas fa-spoon"></i></div>
+                <div class="category-icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 16c0 8 8 12 12 16v14a4 4 0 0 0 8 0V32c4-4 12-8 12-16" />
+                        <path d="M32 24h12" />
+                        <path d="M32 34h12" />
+                    </svg>
+                </div>
                 <h3>Phụ Kiện</h3>
                 <p>30 sản phẩm</p>
             </div>
             <div class="category-card" onclick="filterProducts('luu-tru')">
-                <div class="category-icon"><i class="fas fa-box"></i></div>
+                <div class="category-icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 24l16-10 16 10v24l-16 10L16 48V24z" />
+                        <path d="M32 14v18" />
+                        <path d="M16 24l16 10 16-10" />
+                    </svg>
+                </div>
                 <h3>Lưu Trữ</h3>
                 <p>15 sản phẩm</p>
             </div>
             <div class="category-card" onclick="filterProducts('nuong')">
-                <div class="category-icon"><i class="fas fa-bread-slice"></i></div>
+                <div class="category-icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 32c2-8 24-12 28 0 2 6 0 14-12 16-12 2-18-4-16-16z" />
+                        <path d="M24 36h16" />
+                        <path d="M26 44h12" />
+                    </svg>
+                </div>
                 <h3>Nướng & Bánh</h3>
                 <p>12 sản phẩm</p>
             </div>
@@ -161,22 +200,47 @@ const pageHtml = `
         </div>
         <div class="features-grid">
             <div class="feature-card">
-                <div class="feature-icon"><i class="fas fa-medal"></i></div>
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32 6 12 16v18c0 18 10 26 20 30 10-4 20-12 20-30V16L32 6z" />
+                        <path d="M24 28l8 8 12-12" />
+                    </svg>
+                </div>
                 <h3>Chất Lượng Cao</h3>
                 <p>Sản phẩm được chọn lọc kỹ càng từ các thương hiệu uy tín hàng đầu thế giới</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon"><i class="fas fa-shipping-fast"></i></div>
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 40h30V24H10z" />
+                        <path d="M40 24h10l8 10v10H40" />
+                        <path d="M10 40h48" />
+                        <circle cx="20" cy="48" r="6" />
+                        <circle cx="46" cy="48" r="6" />
+                    </svg>
+                </div>
                 <h3>Giao Hàng Nhanh</h3>
                 <p>Miễn phí vận chuyển cho đơn hàng từ 500K, giao hàng trong 24h nội thành</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon"><i class="fas fa-undo"></i></div>
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32 18a14 14 0 0 1 14 14c0 1.5-.2 3-.5 4.4" />
+                        <polyline points="50 20 58 20 58 28" />
+                        <path d="M32 46a14 14 0 0 1-14-14c0-1.5.2-3 .5-4.4" />
+                        <polyline points="14 44 6 44 6 36" />
+                    </svg>
+                </div>
                 <h3>Đổi Trả Dễ Dàng</h3>
                 <p>Chính sách đổi trả trong 30 ngày nếu sản phẩm có lỗi từ nhà sản xuất</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                <div class="feature-icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 34v10a6 6 0 0 0 6 6h2v-18a10 10 0 0 1 20 0v18h2a6 6 0 0 0 6-6V34" />
+                        <path d="M16 34a16 16 0 0 1 32 0" />
+                    </svg>
+                </div>
                 <h3>Hỗ Trợ 24/7</h3>
                 <p>Đội ngũ tư vấn viên sẵn sàng hỗ trợ bạn mọi lúc mọi nơi</p>
             </div>
@@ -225,28 +289,51 @@ const pageHtml = `
                 </div>
                 <div class="contact-details">
                     <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M32 58S12 38 12 24a20 20 0 0 1 40 0c0 14-20 34-20 34z" />
+                                <circle cx="32" cy="24" r="6" />
+                            </svg>
+                        </div>
                         <div>
                             <h4>Địa chỉ</h4>
                             <p>123 Đường Nguyễn Huệ, Quận 1, TP.HCM</p>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-phone-alt"></i>
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="18" y="12" width="28" height="40" rx="6" />
+                                <path d="M26 20h12" />
+                                <path d="M26 30h12" />
+                                <path d="M26 40h8" />
+                            </svg>
+                        </div>
                         <div>
                             <h4>Điện thoại</h4>
                             <p>0123 456 789</p>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="12" y="20" width="40" height="24" rx="4" />
+                                <path d="M12 20l20 14 20-14" />
+                            </svg>
+                        </div>
                         <div>
                             <h4>Email</h4>
                             <p>info@kitchenpro.vn</p>
                         </div>
                     </div>
                     <div class="contact-item">
-                        <i class="fas fa-clock"></i>
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="18" />
+                                <path d="M32 18v12" />
+                                <path d="M32 32h10" />
+                            </svg>
+                        </div>
                         <div>
                             <h4>Giờ làm việc</h4>
                             <p>8:00 - 21:00 (Thứ 2 - CN)</p>
@@ -555,7 +642,10 @@ const pageHtml = `
                     <div id="admin-orders-list" class="admin-table-container"></div>
                 </div>
                 <div id="admin-products" class="admin-tab">
-                    <h3>Quản lý sản phẩm</h3>
+                    <div class="admin-tab-header">
+                        <h3>Quản lý sản phẩm</h3>
+                        <button class="btn-primary" onclick="openAddProductModal()">+ Thêm sản phẩm mới</button>
+                    </div>
                     <div id="admin-products-list" class="admin-table-container"></div>
                 </div>
                 <div id="admin-users" class="admin-tab">
@@ -600,6 +690,52 @@ const pageHtml = `
     </div>
 </div>
 <div id="edit-image-overlay" class="modal-overlay" onclick="closeEditImageModal()"></div>
+
+<div id="add-product-modal" class="modal">
+    <div class="modal-content modal-small">
+        <div class="modal-header">
+            <h2><i class="fas fa-plus-circle"></i> Thêm Sản Phẩm Mới</h2>
+            <button class="modal-close" onclick="closeAddProductModal()"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <label><i class="fas fa-tag"></i> Tên sản phẩm</label>
+                <input type="text" id="new-product-name" placeholder="Tên sản phẩm" required>
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-dollar-sign"></i> Giá</label>
+                <input type="number" id="new-product-price" min="0" placeholder="Giá" required>
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-box"></i> Số lượng kho</label>
+                <input type="number" id="new-product-stock" min="0" placeholder="Số lượng" required>
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-list"></i> Danh mục</label>
+                <select id="new-product-category">
+                    <option value="noi-chao">Nồi & Chảo</option>
+                    <option value="dao-thot">Dao & Thớt</option>
+                    <option value="dien">Đồ Điện</option>
+                    <option value="phu-kien">Phụ Kiện</option>
+                    <option value="luu-tru">Lưu Trữ</option>
+                    <option value="nuong">Nướng & Bánh</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-file-image"></i> Ảnh sản phẩm</label>
+                <input type="file" id="new-product-image-file" accept="image/*">
+            </div>
+            <div class="form-group">
+                <label><i class="fas fa-align-left"></i> Mô tả</label>
+                <textarea id="new-product-description" placeholder="Mô tả sản phẩm"></textarea>
+            </div>
+            <button class="btn-auth" onclick="handleAddProduct()">
+                <i class="fas fa-save"></i> Lưu sản phẩm
+            </button>
+        </div>
+    </div>
+</div>
+<div id="add-product-overlay" class="modal-overlay" onclick="closeAddProductModal()"></div>
 
 <div id="review-modal" class="modal">
     <div class="modal-content modal-small">
