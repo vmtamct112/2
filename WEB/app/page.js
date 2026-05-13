@@ -3,6 +3,7 @@
 import Script from 'next/script';
 
 const pageHtml = `
+
 <header>
     <nav class="navbar">
         <div class="logo">
