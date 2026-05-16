@@ -71,3 +71,14 @@ npm run lint    # lint
 **Image Optimization**: Hình ảnh demo được lấy từ các nguồn CDN uy tín (Unsplash, Picsum) và đã được cấu hình trong next.config.mjs.
 
 **Client-side Rendering**: Toàn bộ logic giao diện được đảm bảo render chính xác tại Client để tránh lỗi Hydration.
+
+---
+
+## Danh sách thành viên:
+**Nguyễn Ngọc Tú Uyên** - **Team Leader** - quản lý lên kế hoạch & ghi nhận kết quả.
+
+**Võ Minh Tâm** - **Project Leader** - Đề xuất quản lý dự án thiết kế website.
+
+**Nguyễn Hoàng Phúc** - **UX/UI Designer** - thiết kế & chỉnh sửa giao diện.
+
+---
